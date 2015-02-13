@@ -1,0 +1,183 @@
+.nav-pills > a {
+			font-family: Calligraffitti;
+			font-size: 15px;
+			text-shadow: none;
+			line-height: 17px;
+		}
+		
+		.navbar .nav-pills > li > a {
+			
+			margin-left: 5px;
+			margin-right: 5px;
+			padding: 10px 40px;
+			border-radius: 5px;
+			color: #292929;
+			background-color: #F0F0F0;
+		}
+		
+		.navbar .nav-pills > li > a {
+			text-shadow: none;
+			font-weight: normal;
+		}
+		
+		/* ----- What we do ----- */
+
+		.what-we-do {
+		    margin-top: 50px;
+		}
+		
+		.what-we-do .service {
+		    padding-bottom: 23px;
+		    /*background: #f8f8f8;
+		    border-bottom: 2px solid #9d426b;*/
+		    background: #696969;
+		}
+		
+		
+		.service-bis {
+			padding: 25px;
+			/*
+			background: #F8F8F8;
+			border-bottom: 2px solid #9D426B;
+			*/
+			border-radius: 5px;
+		}
+		
+		.what-we-do .service:hover {
+		    box-shadow:
+		        0 5px 15px 0 rgba(0,0,0,.05),
+		        0 1px 25px 0 rgba(0,0,0,.05) inset,
+		        0 -1px 25px 0 rgba(0,0,0,.05) inset;
+		    -o-transition: all .5s;
+		    -moz-transition: all .5s;
+		    -webkit-transition: all .5s;
+		    -ms-transition: all .5s;
+		}
+		
+		.what-we-do .service .icon-awesome {
+		    margin-top: 15px;
+		    font-size: 50px;
+		    line-height: 50px;
+		    color: #5d5d5d;
+		}
+		
+		.what-we-do .service h4 {
+		    margin-top: 5px;
+		    font-family: 'Droid Sans', Helvetica, Arial, sans-serif;
+		    font-size: 14px;
+		    /* color: #5d5d5d; */
+		    color: #fff;
+		    text-transform: uppercase;
+		    text-shadow: 0 1px 0 rgba(255,255,255,.7);
+		}
+		
+		.what-we-do .service p {
+		    padding-bottom: 10px;
+		    line-height: 24px;
+		    color: #FFF
+		}
+		
+		.what-we-do .service a {
+		    /* padding: 5px 22px;
+		    background: #9d426b;
+		    text-decoration: none;
+		    -moz-box-shadow:
+		        0 1px 25px 0 rgba(0,0,0,.05) inset,
+		        0 -1px 25px 0 rgba(0,0,0,.05) inset;
+		    -webkit-box-shadow:
+		        0 1px 25px 0 rgba(0,0,0,.05) inset,
+		        0 -1px 25px 0 rgba(0,0,0,.05) inset;
+		    box-shadow:
+		        0 1px 25px 0 rgba(0,0,0,.05) inset,
+		        0 -1px 25px 0 rgba(0,0,0,.05) inset;
+		    */
+			color: #fff;
+		    font-style: italic;		
+		}
+		
+		.what-we-do .service a:hover {
+		    -moz-box-shadow: none;
+		    -webkit-box-shadow: none;
+		    box-shadow: none;
+		}
+		
+		.what-we-do .service a:active {
+		    -moz-box-shadow:
+		        0 5px 10px 0 rgba(0,0,0,.15) inset,
+		        0 -1px 25px 0 rgba(0,0,0,.05) inset;
+		    -webkit-box-shadow:
+		        0 5px 10px 0 rgba(0,0,0,.15) inset,
+		        0 -1px 25px 0 rgba(0,0,0,.05) inset;
+		    box-shadow:
+		        0 5px 10px 0 rgba(0,0,0,.15) inset,
+		        0 -1px 25px 0 rgba(0,0,0,.05) inset;
+		}
+		
+		
+		.col-xs-6 .col-md-4 { 
+			/*width: 270px;*/
+			float: right;
+			margin-left: 12px; 
+		}
+		
+		.col-md-4-bis {
+			width: 32.74%;
+			margin-right: 5px;
+			border-radius: 5px;
+		}
+		
+		[class^="icon-"]:before, [class*=" icon-"]:before {
+		  font-family: FontAwesome;
+		  font-weight: normal;
+		  font-style: normal;
+		  display: inline-block;
+		  text-decoration: inherit;
+		}
+		a [class^="icon-"], a [class*=" icon-"] {
+		  display: inline-block;
+		  text-decoration: inherit;
+		}
+		/* makes the font 33% larger relative to the icon container */
+		.icon-large:before {
+		  vertical-align: top;
+		  font-size: 1.3333333333333333em;
+		}
+		.btn [class^="icon-"], .btn [class*=" icon-"] {
+		  /* keeps button heights with and without icons the same */
+		
+		  line-height: .9em;
+		}
+		li [class^="icon-"], li [class*=" icon-"] {
+		  display: inline-block;
+		  width: 1.25em;
+		  text-align: center;
+		}
+		li .icon-large[class^="icon-"], li .icon-large[class*=" icon-"] {
+		  /* 1.5 increased font size for icon-large * 1.25 width */
+		
+		  width: 1.875em;
+		}
+		li[class^="icon-"], li[class*=" icon-"] {
+		  margin-left: 0;
+		  list-style-type: none;
+		}
+		li[class^="icon-"]:before, li[class*=" icon-"]:before {
+		  text-indent: -2em;
+		  text-align: center;
+		}
+		li[class^="icon-"].icon-large:before, li[class*=" icon-"].icon-large:before {
+		  text-indent: -1.3333333333333333em;
+		}
+		
+		.footer {
+			margin: 0 auto;
+			padding-bottom: 10px;
+			background-color: #696969;
+			/* 
+			background: #F8F8F8;
+			url(../img/pattern.jpg) left top repeat; */
+			-moz-box-shadow: 0 5px 15px 0 rgba(0,0,0,.05) inset;
+			-webkit-box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.05) inset;
+			box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.05) inset;
+		}
+		
