@@ -41,7 +41,7 @@
   </head>
   <body>
     
-    <div class="container" style="margin-bottom: 50px;">
+    <div class="container">
 
     	<div class="row">
 			<div class="col-md-3" style="background-color: #F0F0F0;border-radius: 5px;">
@@ -62,24 +62,14 @@
 				
 				<hr>
 				<div>
-					<form class="form-horizontal">
-					  
-					  <div class="form-group">
-					    <div class=col-sm-10>
-					      <input type="email" class="form-control" id="inputEmail3" placeholder="Enter your email">
-					    </div>
-					  </div>
-					  
-					  <div class="form-group">
-					    <div class="col-sm-offset-2 col-sm-10">
-					      <p class="text-right" style="margin-right: 50px;"><button type="submit" class="btn btn-primary">Send</button></p>
-					    </div>
-					  </div>
-					  
+					<form class="form-inline">
+						<div class="form-group">
+							<input type="email" class="form-control" id="exampleInputEmail3" placeholder="Enter email">					    	
+					  	</div>
+					  	<button type="submit" class="btn btn-primary">Send</button>
 					</form>
 				</div>
-				
-				<div style="height: 800px;">
+				<div style="height:800px;">
 				
 				</div>
 				
@@ -139,14 +129,14 @@
 				  </a>
 				</div>
 				  
-		  		<div class="navbar">
+		  		<div class="navbar text-center">
 		  			<ul class="nav nav-pills" style="margin-left: 12px;">
-		  				<li><a href="#">home</a></li>
+		  				<li><a href="#">Accueil</a></li>
 		  				<li><a href="#">A propos</a></li>
-		  				<li><a href="#">services</a></li>
-		  				<li><a href="#">cond° générales</a></li>
-		  				<li><a href="#">Contact</a></li>
+		  				<li><a href="#">Services</a></li>
+		  				<!-- <li><a href="#">cond° générales</a></li> -->
 		  				<li><a href="#">Questions</a></li>
+		  				<li><a href="#">Contact</a></li>
 		  			</ul>
 		  		</div>
 		  		
@@ -200,7 +190,7 @@
 	                </div>
 				  </div>
 				  <div class="col-xs-6">
-				  	<div class="service-bis" style="color: #FFF; background-color: #5bc0de;">
+				  	<div class="service-bis" style="color: #FFF; background-color: #55c8ff;">
 	                    <div class="icon-awesome">
 	                        <i class="icon-table"></i>
 	                    </div>
@@ -222,9 +212,9 @@
                 <div class="row">
                 <p class="text-center"></p>
                 </div>
-                
+                <!-- <hr> -->
                 <div>
-				  <p class="text-center">&copy;2015 dexer Tous droits réservés. Réalisation : Lomdjel</p>
+				  <p class="text-center" style="font-size: 13px;font-weight: normal;color: #969696;line-height: 18px;">&copy;2015 dexer Tous droits réservés. Réalisation : Dexer</p>
 				</div>
                  
             </div>
