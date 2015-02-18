@@ -50,7 +50,7 @@
     <div class="container">
 
     	<div class="row">
-			<div class="col-md-3" style="background-color: #F0F0F0;border-radius: 5px;">
+			<div class="col-md-3" style="background-color: #F0F0F0;border-radius: 5px;margin-top: 2.5%;height: 1410px;">
 				<div>
 					<img src="public/img/logo.jpg" class="img-thumbnail">
 					<nav>
@@ -74,9 +74,11 @@
 					  	<button type="submit" class="btn btn-primary">Send</button>
 					</form>
 				</div>
+				<!-- 
 				<div style="height:800px;">
 				
 				</div>
+				 -->
 				
 			</div>
 		  	<div class="col-md-9">
@@ -291,13 +293,13 @@
 			    
 			    </div>
 			    
-			    <div class="container-fluid animate" data-anim-type="fadeIn" data-anim-delay="200">
+			    <div class="container-fluid animate test-animate" data-anim-type="fadeIn" data-anim-delay="200">
     
-			        <ul class="list_divlines">
-			            <li><i class="fa fa-chevron-right"></i> Many desktop as publish packages </li>
-			            <li><i class="fa fa-chevron-right"></i> Web page editor ins default use the </li>
-			            <li><i class="fa fa-chevron-right"></i> Lpsum their when the model text</li>
-			            <li><i class="fa fa-chevron-right"></i> Search many web sites in purpose</li>
+			        <ul class="list_divlines" style="list-style-type: none;">
+			            <li><!-- <i class="fa fa-chevron-right"></i> --> Many desktop as publish packages </li>
+			            <li><!-- <i class="fa fa-chevron-right"></i> --> Web page editor ins default use the </li>
+			            <li><!-- <i class="fa fa-chevron-right"></i> --> Lpsum their when the model text</li>
+			            <li><!-- <i class="fa fa-chevron-right"></i> --> Search many web sites in purpose</li>
 			        </ul>
 			        
 			    </div>
@@ -317,122 +319,84 @@
 			    
 			    </div>
 			    
-			    <div class="features_sec3">
-					<div class="container-fluid">
+			    
 					
-					    <div class="one_third">
-					    
-					        <div class="box animate" data-anim-type="fadeIn" data-anim-delay="100">
-					        	<!-- 
-					            <div class="ciref outline-outward left"> <span aria-hidden="true" class="icon-screen-desktop"></span> </div>
-					             -->
-					            <div class="right">
-					                <h5>Modern Design</h5>
-					                <p>Mombined with handful model sentence structures to generate which looks.</p>
-					            </div>
-							
-					        </div><!-- end section -->
-					    	
-					        <div class="box animate" data-anim-type="fadeIn" data-anim-delay="100">
-					        	<!-- 
-					            <div class="ciref outline-outward left"> <span aria-hidden="true" class="icon-umbrella"></span> </div>
-					             -->
-					            <div class="right">
-					                <h5>Flexibility</h5>
-					                <p>Mombined with handful model sentence structures to generate which looks.</p>
-					            </div>
-							
-					        </div><!-- end section -->
-					        
-					        <div class="box last animate" data-anim-type="fadeIn" data-anim-delay="100">
-					        	<!-- 
-					            <div class="ciref outline-outward left"> <span aria-hidden="true" class="icon-settings"></span> </div>
-					             -->
-					            <div class="right">
-					                <h5>Parallax Effects</h5>
-					                <p>Mombined with handful model sentence structures to generate which looks.</p>
-					            </div>
-							
-					        </div><!-- end section -->
-					        
-						</div><!-- end all sections -->
-					    
-					    <div class="one_third">
-					    
-					        <div class="box animate" data-anim-type="fadeIn" data-anim-delay="150">
-					        	<!-- 
-					            <div class="ciref outline-outward left active"> <span aria-hidden="true" class="icon-social-dropbox"></span> </div>
-					             -->
-					            <div class="right">
-					                <h5>Diffrent Websites</h5>
-					                <p>Mombined with handful model sentence structures to generate which looks.</p>
-					            </div>
-							
-					        </div><!-- end section -->
-					    	
-					        <div class="box animate" data-anim-type="fadeIn" data-anim-delay="150">
-					        	<!-- 
-					            <div class="ciref outline-outward left"> <span aria-hidden="true" class="icon-social-youtube"></span> </div>
-					             -->
-					            <div class="right">
-					                <h5>Background Videos</h5>
-					                <p>Mombined with handful model sentence structures to generate which looks.</p>
-					            </div>
-							
-					        </div><!-- end section -->
-					        
-					        <div class="box last animate" data-anim-type="fadeIn" data-anim-delay="150">
-					        	<!-- 
-					            <div class="ciref outline-outward left"> <span aria-hidden="true" class="icon-bell"></span> </div>
-					             -->
-					            <div class="right">
-					                <h5>Contact Form</h5>
-					                <p>Mombined with handful model sentence structures to generate which looks.</p>
-					            </div>
-							
-					        </div><!-- end section -->
-					        
-						</div><!-- end all sections -->
-					    
-					    <div class="one_third last">
-					    
-					        <div class="box animate" data-anim-type="fadeIn" data-anim-delay="200">
-					        	<!-- 
-					            <div class="ciref outline-outward left"> <span aria-hidden="true" class="icon-cup"></span> </div>
-					             -->
-					            <div class="right">
-					                <h5>Mega Menu</h5>
-					                <p>Mombined with handful model sentence structures to generate which looks.</p>
-					            </div>
-							
-					        </div><!-- end section -->
-					    	
-					        <div class="box animate" data-anim-type="fadeIn" data-anim-delay="200">
-					        	<!-- 
-					            <div class="ciref outline-outward left"> <span aria-hidden="true" class="icon-layers"></span> </div>
-					             -->
-					            <div class="right">
-					                <h5>Layered PSD Files</h5>
-					                <p>Mombined with handful model sentence structures to generate which looks.</p>
-					            </div>
-							
-					        </div><!-- end section -->
-					        
-					        <div class="box last animate" data-anim-type="fadeIn" data-anim-delay="200">
-					        	<!-- 
-					            <div class="ciref outline-outward left"> <span aria-hidden="true" class="icon-support"></span> </div>
-					             -->
-					            <div class="right">
-					                <h5>Cross Browser Support</h5>
-					                <p>Mombined with handful model sentence structures to generate which looks.</p>
-					            </div>
-							
-					        </div><!-- end section -->
-					        
-						</div><!-- end all sections -->
+						
+		      <div class="main-services">
+		        <div class="container-fluid">
+		          <div class="row">
+		            <div class="col-sm-4">
+		              <div class="services">
+		                <div class="service-item">
+		                  <i class="fa fa-gear"></i>
+		                  <div class="service-desc">
+		                    <h4>Built With Bootstrap 3</h4>
+		                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id ipsum varius, tincidunt odio nec, placerat enim.</p>
+		                  </div>
+		                </div>
+		              </div>
+		            </div>
+		            <div class="col-sm-4">
+		              <div class="services">
+		                <div class="service-item">
+		                  <i class="fa fa-gear"></i>
+		                  <div class="service-desc">
+		                    <h4>Responsive Design</h4>
+		                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id ipsum varius, tincidunt odio nec, placerat enim.</p>
+		                  </div>
+		                </div>
+		              </div>
+		            </div>
+		            <div class="col-sm-4">
+		              <div class="services">
+		                <div class="service-item">
+		                  <i class="fa fa-gear"></i>
+		                  <div class="service-desc">
+		                    <h4>Easy to Customize</h4>
+		                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id ipsum varius, tincidunt odio nec, placerat enim.</p>
+		                  </div>
+		                </div>
+		              </div>
+		            </div>
+		          </div>
+		          <div class="row">
+		            <div class="col-sm-4">
+		              <div class="services">
+		                <div class="service-item">
+		                  <i class="fa fa-gear"></i>
+		                  <div class="service-desc">
+		                    <h4>20+ Templates Included</h4>
+		                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id ipsum varius, tincidunt odio nec, placerat enim.</p>
+		                  </div>
+		                </div>
+		              </div>
+		            </div>
+		            <div class="col-sm-4">
+		              <div class="services">
+		                <div class="service-item">
+		                  <i class="fa fa-gear"></i>
+		                  <div class="service-desc">
+		                    <h4>24/7 Support</h4>
+		                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id ipsum varius, tincidunt odio nec, placerat enim.</p>
+		                  </div>
+		                </div>
+		              </div>
+		            </div>
+		            <div class="col-sm-4">
+		              <div class="services">
+		                <div class="service-item">
+		                  <i class="fa fa-gear"></i>
+		                  <div class="service-desc">
+		                    <h4>Isotope Gallery</h4>
+		                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id ipsum varius, tincidunt odio nec, placerat enim.</p>
+		                  </div>
+		                </div>
+		              </div>
+		            </div>
+		          </div>
+		        </div>
+		      </div> 
 					
-					</div>
-					</div>
 		  		
 		  	</div>
 		</div>
