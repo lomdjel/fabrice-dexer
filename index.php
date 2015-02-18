@@ -11,6 +11,12 @@
     <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Droid+Sans">
     <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lobster">
     
+    <!-- font awesome icons -->
+    <link rel="stylesheet" href="public/css/font-awesome.min.css">
+    
+    <!-- simple line icons -->
+	<link rel="stylesheet" type="text/css" href="public/css/simple-line-icons.css" media="screen" />
+    
     <!-- Bootstrap -->    
     <link href="public/css/bootstrap.min.css" rel="stylesheet">
     <link href="public/css/bootstrap.css" rel="stylesheet">
@@ -46,8 +52,7 @@
     	<div class="row">
 			<div class="col-md-3" style="background-color: #F0F0F0;border-radius: 5px;">
 				<div>
-					<h4>Logo</h4>
-					<img src="..." alt="..." class="img-rounded">
+					<img src="public/img/logo.jpg" class="img-thumbnail">
 					<nav>
 						<ul>
 			                <li><a href="#">...</a></li>
@@ -140,7 +145,74 @@
 		  			</ul>
 		  		</div>
 		  		
-		  		<!-- Services -->
+			    
+			    <div class="recent_works">
+	
+				    <div class="title2">
+				    	<h2>
+				    		<span class="line" style="width: 40%;margin-left: 30%;"></span>
+				    		<span class="text">Grow your buissness</span>
+				    		<em>Aipsum therefore always</em>
+				    	</h2>
+				    </div>
+				    
+				    <div class="margin_top2"></div>
+				    <div class="clearfix"></div>
+			    
+			    </div>
+			    
+			    <div class="features_sec7">
+					<div class="container-fluid">
+					
+					    <div class="one_fourth animate" data-anim-type="fadeInUp" data-anim-delay="300">
+					    	
+					    	<div class="box">
+					        
+					        	<div class="ibox"><img src="public/img/site-img20.png" alt="" /> <h6>Type de Déméngament</h6></div>
+					        	
+					            <p>Lorem Ipsum which even looks reasonable and the generated therefore here always.</p>
+					
+					            <a href="#" class="tbut">Read More</a>
+					            
+					        </div>
+					        
+						</div><!-- end section -->
+					    
+					    <div class="one_fourth animate" data-anim-type="fadeInUp" data-anim-delay="350">
+					    	
+					        <div class="box">
+					        
+					        	<div class="ibox"><img src="public/img/site-img21.png" alt="" /> <h6>Demande en Ligne</h6></div>
+					        	
+					            <p>Lorem Ipsum which even looks reasonable and the generated therefore here always.</p>
+					
+					            <a href="#" class="tbut">Read More</a>
+					            
+					        </div>
+					        
+						</div><!-- end section -->
+					    
+					    <div class="one_fourth animate" data-anim-type="fadeInUp" data-anim-delay="400">
+					    	
+					        <div class="box">
+					        
+					        	<div class="ibox"><img src="public/img/site-img22.png" alt="" /> <h6>Comment on fait?</h6></div>
+					        	
+					            <p>Lorem Ipsum which even looks reasonable and the generated therefore here always.</p>
+					
+					            <a href="#" class="tbut">Read More</a>
+					            
+					        </div>
+					        
+						</div><!-- end section -->
+					    
+						<!-- end section -->
+					
+					</div>
+				</div>
+    
+		  		
+		  		<!-- Services
 		        <div class="what-we-do">
 		            <div class="container-fluid">
 		            <div class="row">
@@ -171,9 +243,11 @@
 		            </div>
 		            </div>
 		        </div>
+		         -->
 		        
-		        <div class="row" style="margin-top: 15px">
+		        <div class="row">
 				  <div class="col-xs-6">
+				  	<!-- 
 				  	<div class="service-bis">
 	                    <div class="icon-awesome">
 	                        <i class="icon-table"></i>
@@ -188,18 +262,176 @@
 	                    </ul>
 	                    <a href="services.html">Read more</a>
 	                </div>
+	                 -->
 				  </div>
 				  <div class="col-xs-6">
+				  	<!--
 				  	<div class="service-bis" style="color: #FFF; background-color: #55c8ff;">
 	                    <div class="icon-awesome">
 	                        <i class="icon-table"></i>
 	                    </div>
 	                    <h4>Pourquoi les gens choississent Dexer</h4>
 	                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et...</p>
-	                    <a href="services.html" style="color: #fff">Read more</a>
+	                    <a href="services.html">Read more</a>
 	                </div>
+	                 -->
 				  </div>
 				</div>
+				
+				
+				<div class="recent_works">
+	
+				    <div class="title2">
+				    	<h2><span class="line"></span><span class="text">Recent Works</span><em>Aipsum therefore always</em></h2>
+				    </div>
+				    
+				    <div class="margin_top2"></div>
+				    <div class="clearfix"></div>
+			    
+			    </div>
+			    
+			    <div class="container-fluid animate" data-anim-type="fadeIn" data-anim-delay="200">
+    
+			        <ul class="list_divlines">
+			            <li><i class="fa fa-chevron-right"></i> Many desktop as publish packages </li>
+			            <li><i class="fa fa-chevron-right"></i> Web page editor ins default use the </li>
+			            <li><i class="fa fa-chevron-right"></i> Lpsum their when the model text</li>
+			            <li><i class="fa fa-chevron-right"></i> Search many web sites in purpose</li>
+			        </ul>
+			        
+			    </div>
+			    
+			    <div class="recent_works">
+	
+				    <div class="title2">
+				    	<h2>
+				    		<span class="line"></span>
+				    		<span class="text">Why Choose Us</span>
+				    		<em>Aipsum therefore always</em>
+				    	</h2>
+				    </div>
+				    
+				    <div class="margin_top2"></div>
+				    <div class="clearfix"></div>
+			    
+			    </div>
+			    
+			    <div class="features_sec3">
+					<div class="container-fluid">
+					
+					    <div class="one_third">
+					    
+					        <div class="box animate" data-anim-type="fadeIn" data-anim-delay="100">
+					        	<!-- 
+					            <div class="ciref outline-outward left"> <span aria-hidden="true" class="icon-screen-desktop"></span> </div>
+					             -->
+					            <div class="right">
+					                <h5>Modern Design</h5>
+					                <p>Mombined with handful model sentence structures to generate which looks.</p>
+					            </div>
+							
+					        </div><!-- end section -->
+					    	
+					        <div class="box animate" data-anim-type="fadeIn" data-anim-delay="100">
+					        	<!-- 
+					            <div class="ciref outline-outward left"> <span aria-hidden="true" class="icon-umbrella"></span> </div>
+					             -->
+					            <div class="right">
+					                <h5>Flexibility</h5>
+					                <p>Mombined with handful model sentence structures to generate which looks.</p>
+					            </div>
+							
+					        </div><!-- end section -->
+					        
+					        <div class="box last animate" data-anim-type="fadeIn" data-anim-delay="100">
+					        	<!-- 
+					            <div class="ciref outline-outward left"> <span aria-hidden="true" class="icon-settings"></span> </div>
+					             -->
+					            <div class="right">
+					                <h5>Parallax Effects</h5>
+					                <p>Mombined with handful model sentence structures to generate which looks.</p>
+					            </div>
+							
+					        </div><!-- end section -->
+					        
+						</div><!-- end all sections -->
+					    
+					    <div class="one_third">
+					    
+					        <div class="box animate" data-anim-type="fadeIn" data-anim-delay="150">
+					        	<!-- 
+					            <div class="ciref outline-outward left active"> <span aria-hidden="true" class="icon-social-dropbox"></span> </div>
+					             -->
+					            <div class="right">
+					                <h5>Diffrent Websites</h5>
+					                <p>Mombined with handful model sentence structures to generate which looks.</p>
+					            </div>
+							
+					        </div><!-- end section -->
+					    	
+					        <div class="box animate" data-anim-type="fadeIn" data-anim-delay="150">
+					        	<!-- 
+					            <div class="ciref outline-outward left"> <span aria-hidden="true" class="icon-social-youtube"></span> </div>
+					             -->
+					            <div class="right">
+					                <h5>Background Videos</h5>
+					                <p>Mombined with handful model sentence structures to generate which looks.</p>
+					            </div>
+							
+					        </div><!-- end section -->
+					        
+					        <div class="box last animate" data-anim-type="fadeIn" data-anim-delay="150">
+					        	<!-- 
+					            <div class="ciref outline-outward left"> <span aria-hidden="true" class="icon-bell"></span> </div>
+					             -->
+					            <div class="right">
+					                <h5>Contact Form</h5>
+					                <p>Mombined with handful model sentence structures to generate which looks.</p>
+					            </div>
+							
+					        </div><!-- end section -->
+					        
+						</div><!-- end all sections -->
+					    
+					    <div class="one_third last">
+					    
+					        <div class="box animate" data-anim-type="fadeIn" data-anim-delay="200">
+					        	<!-- 
+					            <div class="ciref outline-outward left"> <span aria-hidden="true" class="icon-cup"></span> </div>
+					             -->
+					            <div class="right">
+					                <h5>Mega Menu</h5>
+					                <p>Mombined with handful model sentence structures to generate which looks.</p>
+					            </div>
+							
+					        </div><!-- end section -->
+					    	
+					        <div class="box animate" data-anim-type="fadeIn" data-anim-delay="200">
+					        	<!-- 
+					            <div class="ciref outline-outward left"> <span aria-hidden="true" class="icon-layers"></span> </div>
+					             -->
+					            <div class="right">
+					                <h5>Layered PSD Files</h5>
+					                <p>Mombined with handful model sentence structures to generate which looks.</p>
+					            </div>
+							
+					        </div><!-- end section -->
+					        
+					        <div class="box last animate" data-anim-type="fadeIn" data-anim-delay="200">
+					        	<!-- 
+					            <div class="ciref outline-outward left"> <span aria-hidden="true" class="icon-support"></span> </div>
+					             -->
+					            <div class="right">
+					                <h5>Cross Browser Support</h5>
+					                <p>Mombined with handful model sentence structures to generate which looks.</p>
+					            </div>
+							
+					        </div><!-- end section -->
+					        
+						</div><!-- end all sections -->
+					
+					</div>
+					</div>
 		  		
 		  	</div>
 		</div>
