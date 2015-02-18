@@ -167,10 +167,14 @@ div.features_sec7 div.one_fourth.animate div.box a.tbut{
 	background: #fff;
 }
 
-div.features_sec7 div.one_fourth.animate div.box a.tbut:hover {
-	background: #E54C4C;
-	color: #fff;
+
+div.features_sec7 div.one_fourth.animate div.box:hover a.tbut {
+	/*background: #E54C4C;
+	color: #fff;*/
+	background: #f3f3f3;
+	
 }
+
 
 div.features_sec7 div.one_fourth.animate {}
 

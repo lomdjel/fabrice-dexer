@@ -135,7 +135,7 @@
 				</div>
 				  
 		  		<div class="navbar text-center">
-		  			<ul class="nav nav-pills" style="margin-left: 12px;">
+		  			<ul class="nav nav-pills" style="margin-left: 8%;">
 		  				<li><a href="#">Accueil</a></li>
 		  				<li><a href="#">A propos</a></li>
 		  				<li><a href="#">Services</a></li>
@@ -150,8 +150,9 @@
 	
 				    <div class="title2">
 				    	<h2>
-				    		<span class="line" style="width: 40%;margin-left: 30%;"></span>
-				    		<span class="text">Grow your buissness</span>
+				    		<span class="line" style="width: 22%;margin-left: 39%;"></span>
+				    		<span class="text">Services</span>
+				    		<!-- <span class="text">Grow your buissness</span> -->
 				    		<em>Aipsum therefore always</em>
 				    	</h2>
 				    </div>
@@ -282,7 +283,7 @@
 				<div class="recent_works">
 	
 				    <div class="title2">
-				    	<h2><span class="line"></span><span class="text">Recent Works</span><em>Aipsum therefore always</em></h2>
+				    	<h2><span class="line" style="width: 44%;margin-left: 28%;"></span><span class="text">Nouvelles de l'entreprise</span><em>Aipsum therefore always</em></h2>
 				    </div>
 				    
 				    <div class="margin_top2"></div>
@@ -305,8 +306,8 @@
 	
 				    <div class="title2">
 				    	<h2>
-				    		<span class="line"></span>
-				    		<span class="text">Why Choose Us</span>
+				    		<span class="line" style="width: 66%;margin-left: 17%;"></span>
+				    		<span class="text">Pourquoi les gens choississent Dexer</span>
 				    		<em>Aipsum therefore always</em>
 				    	</h2>
 				    </div>
