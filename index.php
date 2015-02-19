@@ -1,21 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Dexer</title>
-
-    <!-- CSS -->
-    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400italic,400">
-    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Droid+Sans">
-    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lobster">
-    
-    <!-- font awesome icons -->
-    <link rel="stylesheet" href="public/css/font-awesome.min.css">
-    
-    <!-- simple line icons -->
-	<link rel="stylesheet" type="text/css" href="public/css/simple-line-icons.css" media="screen" />
     
     <!-- Bootstrap -->    
     <link href="public/css/bootstrap.min.css" rel="stylesheet">
@@ -23,27 +13,25 @@
     <link rel="stylesheet" href="public/css/style.css">
     
     
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-    	<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
+     <!-- Resources -->
+     <!-- font awesome icons -->
+    <link href="public/delivery/css/font-awesome.min.css" rel="stylesheet">
     
-    <!-- Favicon and touch icons -->
-    <link rel="shortcut icon" href="assets/ico/favicon.ico">
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="public/ico/apple-touch-icon-144-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="public/ico/apple-touch-icon-114-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="public/ico/apple-touch-icon-72-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" href="public/ico/apple-touch-icon-57-precomposed.png">
+    <link href="public/delivery/css/animate.css" rel="stylesheet">
     
+    <link href="public/delivery/css/lightbox.css" rel="stylesheet">
+    <!-- end Resources -->
+    
+   <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700' rel='stylesheet' type='text/css'>
+	    
+    <link href='http://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700' rel='stylesheet' type='text/css'>
 
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+  
   </head>
   <body>
     
@@ -165,8 +153,9 @@
 			    </div>
 			    
 			    <div class="features_sec7">
+					<!-- 
 					<div class="container-fluid">
-					
+					 -->
 					    <div class="one_fourth animate" data-anim-type="fadeInUp" data-anim-delay="300">
 					    	
 					    	<div class="box">
@@ -210,8 +199,9 @@
 						</div><!-- end section -->
 					    
 						<!-- end section -->
-					
+					<!-- 
 					</div>
+					--> 
 				</div>
     
 		  		
@@ -319,85 +309,81 @@
 			    
 			    </div>
 			    
+				<div class="main-services">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-sm-4">
+              <div class="services">
+                <div class="service-item">
+                  <i class="fa fa-gear"></i>
+                  <div class="service-desc">
+                    <h4>Built With Bootstrap 3</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id ipsum varius, tincidunt odio nec, placerat enim.</p>
+                  </div>
+                </div>
+              </div> <!-- / .services -->
+            </div>
+            <div class="col-sm-4">
+              <div class="services">
+                <div class="service-item">
+                  <i class="fa fa-arrows-alt"></i>
+                  <div class="service-desc">
+                    <h4>Responsive Design</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id ipsum varius, tincidunt odio nec, placerat enim.</p>
+                  </div>
+                </div>
+              </div> <!-- / .services -->
+            </div>
+            <div class="col-sm-4">
+              <div class="services">
+                <div class="service-item">
+                  <i class="fa fa-refresh"></i>
+                  <div class="service-desc">
+                    <h4>Easy to Customize</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id ipsum varius, tincidunt odio nec, placerat enim.</p>
+                  </div>
+                </div>
+              </div> <!-- / .services -->
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-4">
+              <div class="services">
+                <div class="service-item">
+                  <i class="fa fa-plus"></i>
+                  <div class="service-desc">
+                    <h4>20+ Templates Included</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id ipsum varius, tincidunt odio nec, placerat enim.</p>
+                  </div>
+                </div>
+              </div> <!-- / .services -->
+            </div>
+            <div class="col-sm-4">
+              <div class="services">
+                <div class="service-item">
+                  <i class="fa fa-envelope"></i>
+                  <div class="service-desc">
+                    <h4>24/7 Support</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id ipsum varius, tincidunt odio nec, placerat enim.</p>
+                  </div>
+                </div>
+              </div> <!-- / .services -->
+            </div>
+            <div class="col-sm-4">
+              <div class="services">
+                <div class="service-item">
+                  <i class="fa fa-picture-o"></i>
+                  <div class="service-desc">
+                    <h4>Isotope Gallery</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id ipsum varius, tincidunt odio nec, placerat enim.</p>
+                  </div>
+                </div>
+              </div> <!-- / .services -->
+            </div>
+           </div>
+           </div>
+           </div>
 			    
-					
-						
-		      <div class="main-services">
-		        <div class="container-fluid">
-		          <div class="row">
-		            <div class="col-sm-4">
-		              <div class="services">
-		                <div class="service-item">
-		                  <i class="fa fa-gear"></i>
-		                  <div class="service-desc">
-		                    <h4>Built With Bootstrap 3</h4>
-		                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id ipsum varius, tincidunt odio nec, placerat enim.</p>
-		                  </div>
-		                </div>
-		              </div>
-		            </div>
-		            <div class="col-sm-4">
-		              <div class="services">
-		                <div class="service-item">
-		                  <i class="fa fa-gear"></i>
-		                  <div class="service-desc">
-		                    <h4>Responsive Design</h4>
-		                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id ipsum varius, tincidunt odio nec, placerat enim.</p>
-		                  </div>
-		                </div>
-		              </div>
-		            </div>
-		            <div class="col-sm-4">
-		              <div class="services">
-		                <div class="service-item">
-		                  <i class="fa fa-gear"></i>
-		                  <div class="service-desc">
-		                    <h4>Easy to Customize</h4>
-		                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id ipsum varius, tincidunt odio nec, placerat enim.</p>
-		                  </div>
-		                </div>
-		              </div>
-		            </div>
-		          </div>
-		          <div class="row">
-		            <div class="col-sm-4">
-		              <div class="services">
-		                <div class="service-item">
-		                  <i class="fa fa-gear"></i>
-		                  <div class="service-desc">
-		                    <h4>20+ Templates Included</h4>
-		                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id ipsum varius, tincidunt odio nec, placerat enim.</p>
-		                  </div>
-		                </div>
-		              </div>
-		            </div>
-		            <div class="col-sm-4">
-		              <div class="services">
-		                <div class="service-item">
-		                  <i class="fa fa-gear"></i>
-		                  <div class="service-desc">
-		                    <h4>24/7 Support</h4>
-		                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id ipsum varius, tincidunt odio nec, placerat enim.</p>
-		                  </div>
-		                </div>
-		              </div>
-		            </div>
-		            <div class="col-sm-4">
-		              <div class="services">
-		                <div class="service-item">
-		                  <i class="fa fa-gear"></i>
-		                  <div class="service-desc">
-		                    <h4>Isotope Gallery</h4>
-		                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam id ipsum varius, tincidunt odio nec, placerat enim.</p>
-		                  </div>
-		                </div>
-		              </div>
-		            </div>
-		          </div>
-		        </div>
-		      </div> 
-					
-		  		
 		  	</div>
 		</div>
     </div>
