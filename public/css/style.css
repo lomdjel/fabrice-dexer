@@ -210,6 +210,19 @@ div.features_sec3 {
 	margin: 20% 0% 30% 0%;
 }
 
+ol.carousel-indicators {
+	width: 7%;
+	margin-left: 22%;
+}
+
+div.item {
+	margin-top: 7%;
+}
+
+a.left.carousel-control {
+	margin-left: 50%;
+}
+
 div.right {
 	position: absolute;
 	left: 20%;
@@ -237,9 +250,9 @@ div.right p {
 /* ----- end div features_sec3 ----- */
 
 .test-animate:hover {
-	background: #55C8FF;
+	/*background: #55C8FF;
 	border-radius: 5px;
-	color : #fff;
+	color : #fff;*/
 }
 
 .features_sec3 .box .left {

@@ -74,8 +74,8 @@
 		  		<header>
 			    	<p class="text-right"><a href="#">Login</a> | <a href="#">Sitemap</a></p>
 			    </header>
-		  		
-		  		<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+			    
+		  		<div id="carousel-example-generic" class="carousel slide" data-ride="carousel" style="background: url(public/img/header-2.jpg) no-repeat">
 				  <!-- Indicators -->
 				  <ol class="carousel-indicators">
 				    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
@@ -85,33 +85,35 @@
 				  </ol>
 				
 				  <!-- Wrapper for slides -->
-				  <div class="carousel-inner" role="listbox">
+				  <div class="carousel-inner" role="listbox" style="height: 260px;width: 50%;margin-left: 50%;">
 				    
 				    <div class="item active">
-				      <img src="public/img/1.jpg">
+				      <img src="public/img/header-3.jpg">
 				      <div class="carousel-caption">
 				      </div>
 				    </div>
 				    
 				    <div class="item">
-				      <img src="public/img/2.jpg">
+				      <img src="public/img/header-4.jpg">
 				      <div class="carousel-caption">
 				      </div>
 				    </div>
 				    
 				    <div class="item">
-				      <img src="public/img/5.jpg">
+				      <img src="public/img/header-5.jpg">
 				      <div class="carousel-caption">
 				      </div>
 				    </div>
 				    
 				    <div class="item">
-				      <img src="public/img/6.jpg">
+				      <img src="public/img/header-6.jpg">
 				      <div class="carousel-caption">
 				      </div>
 				    </div>
 				    
 				  </div>
+
+				  
 				  
 				  <!-- Controls -->
 				  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
@@ -135,6 +137,19 @@
 		  			</ul>
 		  		</div>
 		  		
+		  		<!-- 
+		  		<div class="wpb_wrapper text-center">
+                	<div class="wpb_content_element dynamic_page_header style_1">
+                    	<h1 style="font-size:36px; font-family:Bebas Neue; color:#009dd4">WELCOME TO DEXER</h1>
+                        <div class="line_under">
+                        	<div class="line_left"></div>
+                            <div class="line_center"></div>
+                            <div class="line_right"></div>
+                        </div>
+                        <p class="description" style="color: #999;font-size: 14px;">Conseil pratique pour déménagement</p>
+                    </div>
+                </div>
+		  		 -->
 			    
 			    <div class="recent_works">
 	
@@ -286,10 +301,10 @@
 			    <div class="container-fluid animate test-animate" data-anim-type="fadeIn" data-anim-delay="200">
     
 			        <ul class="list_divlines" style="list-style-type: none;">
-			            <li><!-- <i class="fa fa-chevron-right"></i> --> Many desktop as publish packages </li>
-			            <li><!-- <i class="fa fa-chevron-right"></i> --> Web page editor ins default use the </li>
-			            <li><!-- <i class="fa fa-chevron-right"></i> --> Lpsum their when the model text</li>
-			            <li><!-- <i class="fa fa-chevron-right"></i> --> Search many web sites in purpose</li>
+			            <li><i class="fa fa-chevron-right"></i> Many desktop as publish packages </li>
+			            <li><i class="fa fa-chevron-right"></i> Web page editor ins default use the </li>
+			            <li><i class="fa fa-chevron-right"></i> Lpsum their when the model text</li>
+			            <li><i class="fa fa-chevron-right"></i> Search many web sites in purpose</li>
 			        </ul>
 			        
 			    </div>
@@ -299,7 +314,7 @@
 				    <div class="title2">
 				    	<h2>
 				    		<span class="line" style="width: 66%;margin-left: 17%;"></span>
-				    		<span class="text">Pourquoi les gens choississent Dexer</span>
+				    		<span class="text">Pourquoi les clients choississent Dexer</span>
 				    		<em>Aipsum therefore always</em>
 				    	</h2>
 				    </div>
@@ -408,6 +423,5 @@
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="public/js/bootstrap.min.js"></script>
     <script src="public/js/bootstrap.js"></script>
-    
   </body>
 </html>
