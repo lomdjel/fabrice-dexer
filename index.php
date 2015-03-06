@@ -81,32 +81,33 @@
 				    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
 				    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
 				    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-				    <li data-target="#carousel-example-generic" data-slide-to="3"></li>
 				  </ol>
 				
 				  <!-- Wrapper for slides -->
 				  <div class="carousel-inner" role="listbox" style="height: 260px;width: 50%;margin-left: 50%;">
 				    
 				    <div class="item active">
-				      <img src="public/img/header-3.jpg">
+				      <img src="public/img/header-3.jpg" width="380" height="47">
+				      <div class="carousel-caption">
+				      </div>
+				    </div>
+				     
+				     <!-- 
+				    <div class="item">
+				      <img src="public/img/header-4.jpg" width="290" height="290">
+				      <div class="carousel-caption">
+				      </div>
+				    </div>
+				     -->
+				    
+				    <div class="item">
+				      <img src="public/img/header-5.jpg" width="290" height="290" style="margin-left: 50px;">
 				      <div class="carousel-caption">
 				      </div>
 				    </div>
 				    
 				    <div class="item">
-				      <img src="public/img/header-4.jpg">
-				      <div class="carousel-caption">
-				      </div>
-				    </div>
-				    
-				    <div class="item">
-				      <img src="public/img/header-5.jpg">
-				      <div class="carousel-caption">
-				      </div>
-				    </div>
-				    
-				    <div class="item">
-				      <img src="public/img/header-6.jpg">
+				      <img src="public/img/header-6.jpg" width="290" height="290" style="margin-left: 50px;">
 				      <div class="carousel-caption">
 				      </div>
 				    </div>
